@@ -1,0 +1,6 @@
+¡Test Name,Input,Expected Output,Actual Output,Status,Timestamp
+"testPremiumUpperCase","PREMIUM\n70\n","Price: $150.00","Enter membership status (Regular, VIP, Premium): Enter age: Price: $150.00","PASS","2025-06-26 20:17:13"
+"testMixedCaseVIPSenior","vIp\n66\n","Price: $112.50","Enter membership status (Regular, VIP, Premium): Enter age: Price: $112.50","PASS","2025-06-26 20:17:13"
+"testVipLowerCase","vip\n45\n","Price: $150.00","Enter membership status (Regular, VIP, Premium): Enter age: Price: $150.00","PASS","2025-06-26 20:17:13"
+"testRegularAdult","Regular\n30\n","Price: $100.00","Enter membership status (Regular, VIP, Premium): Enter age: Price: $100.00","PASS","2025-06-26 20:17:13"
+"testInvalidStatus","Gold\n30\n","Invalid membership status entered.","Enter membership status (Regular, VIP, Premium): Invalid membership status entered.","PASS","2025-06-26 20:17:13"
